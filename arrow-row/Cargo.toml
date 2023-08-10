@@ -50,7 +50,7 @@ arrow-data = { version = "35.0.0", path = "../arrow-data" }
 arrow-schema = { version = "35.0.0", path = "../arrow-schema" }
 
 half = { version = "2.1", default-features = false }
-hashbrown = { version = "0.13", default-features = false }
+hashbrown = { version = "0.14", default-features = false }
 
 [dev-dependencies]
 arrow-cast = { version = "35.0.0", path = "../arrow-cast" }
