@@ -60,7 +60,7 @@ arrow-select = { version = "35.0.0", path = "../arrow-select" }
 arrow-string = { version = "35.0.0", path = "../arrow-string" }
 
 rand = { version = "0.8", default-features = false, features = ["std", "std_rng"], optional = true }
-pyo3 = { version = "0.18", default-features = false, optional = true }
+pyo3 = { version = "0.20", default-features = false, optional = true }
 
 [package.metadata.docs.rs]
 features = ["prettyprint", "ipc_compression", "dyn_cmp_dict", "dyn_arith_dict", "ffi", "pyarrow"]
